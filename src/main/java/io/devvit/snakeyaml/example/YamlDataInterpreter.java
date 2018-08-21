@@ -4,10 +4,10 @@ import org.yaml.snakeyaml.Yaml;
 
 import java.io.InputStream;
 
-public class YamlIntepreter {
+public class YamlDataInterpreter {
 
     public static void main(String[] args) {
-        YamlIntepreter intepreter = new YamlIntepreter();
+        YamlDataInterpreter intepreter = new YamlDataInterpreter();
         intepreter.interpretYaml();
     }
 
